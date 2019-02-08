@@ -13,5 +13,16 @@ print("Hello, World!")
 var a : Bool
 var b : Bool
 
+var s : String = "Hey"
+print(s)
 
+var str = String()
+str = "Hello MF"
+print(str)
+
+var p : String
+p = "Call Me"
+
+print(s,str,p)
+print(s.count)
 
