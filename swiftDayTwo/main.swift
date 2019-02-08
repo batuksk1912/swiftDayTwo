@@ -10,3 +10,8 @@ import Foundation
 
 print("Hello, World!")
 
+var a : Bool
+var b : Bool
+
+
+
