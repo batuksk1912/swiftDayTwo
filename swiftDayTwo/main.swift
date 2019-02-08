@@ -28,4 +28,5 @@ print(s.count)
 print(s.description)
 print(str.hasPrefix("Hello"))
 print(p.hasSuffix("Me"))
+print(s.lowercased())
 
