@@ -25,4 +25,7 @@ p = "Call Me"
 
 print(s,str,p)
 print(s.count)
+print(s.description)
+print(str.hasPrefix("Hello"))
+print(p.hasSuffix("Me"))
 
