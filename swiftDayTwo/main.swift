@@ -94,5 +94,65 @@ print(z.capacity)
 
 print(z[0])
 
+var arr : [Int] = [1,2,3,4,5]
+
+func factorial(of num: Int) -> Int {
+    if num == 1 {
+        return 1
+    } else {
+        return num * factorial(of:num - 1)
+    }
+}
+
+for i in 0..<5 {
+        arr[i] = factorial(of:i+1)
+        print(arr[i])
+    }
+
+
+var s1 = Set<String>()
+
+s1.insert("Turkey")
+s1.insert("Brazil")
+s1.insert("Kurdistan")
+
+print(s1)
+
+s1.insert("Kurdistan")
+
+s1.insert("kurdistan")
+
+print(s1)
+
+var dic = [1:"A",2:"B"]
+
+print(dic)
+
+dic[3] = "C"
+
+print(dic)
+
+//print(dic[4]) nil value
+
+var f = Dictionary<String,String>()
+
+f.updateValue("babacim", forKey: "1")
+
+print(f)
+
+for (k,v) in f {
+    print(k,v)
+}
+
+for i in f {
+    print(i.key)
+}
+
+f.removeAll() // delete all.
+
+
+
+
+
 
 
