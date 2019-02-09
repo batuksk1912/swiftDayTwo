@@ -30,3 +30,21 @@ print(str.hasPrefix("Hello"))
 print(p.hasSuffix("Me"))
 print(s.lowercased())
 
+for c in str {
+    print(c)
+}
+
+var x = 5...10
+
+for j in x {
+    print(j)
+}
+
+print(x)
+
+var y = ...50
+
+if (y.contains(-1000)) {
+    print(true)
+}
+
